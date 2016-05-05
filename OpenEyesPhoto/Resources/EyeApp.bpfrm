@@ -1,0 +1,159 @@
+{
+  "type" : "BPFRootElement",
+  "objectID" : "568b5bc1-4298-4086-b971-399ef0d3a468",
+  "text" : "EyeApp",
+  "enabled" : true,
+  "sections" : {
+    "type" : "BPFSectionArray",
+    "objectID" : "5d438801-1a41-4b89-bbac-a6aa0fecdd99",
+    "sections" : [
+      {
+        "objectID" : "7e83ccda-9799-4e9c-960b-591724f04eac",
+        "enabled" : true,
+        "type" : "BPFSection",
+        "footer" : "",
+        "hasHeader" : true,
+        "titleAlignment" : 0,
+        "footerAlignment" : 1,
+        "hidden" : false,
+        "elements" : {
+          "type" : "BPFElementArray",
+          "objectID" : "59205caa-3086-44ae-9c5b-23bfaeee939b",
+          "columns" : 1,
+          "enabled" : true,
+          "columnElements" : [
+            [
+              {
+                "objectID" : "2aed91ad-5a01-4f64-b52a-3284609f21cf",
+                "text" : "Username",
+                "type" : "BPFEntryElement",
+                "enabled" : true,
+                "autocapitalizationType" : "None",
+                "mandatory" : true,
+                "hidden" : false,
+                "autocorrectionType" : "No",
+                "spellCheckingType" : "No",
+                "key" : "OEPFormKeyUsername"
+              },
+              {
+                "objectID" : "957dbbed-22a5-435e-9b16-4ec10a021ed4",
+                "text" : "Password",
+                "type" : "BPFEntryElement",
+                "enabled" : true,
+                "mandatory" : true,
+                "secureTextEntry" : true,
+                "hidden" : false,
+                "autocorrectionType" : "No",
+                "spellCheckingType" : "No",
+                "key" : "OEPFormKeyPassword"
+              },
+              {
+                "objectID" : "0ff72aa2-030d-487a-b72a-f8e656bf6baa",
+                "text" : "SSID",
+                "type" : "BPFEntryElement",
+                "enabled" : true,
+                "autocapitalizationType" : "None",
+                "mandatory" : true,
+                "hidden" : false,
+                "autocorrectionType" : "No",
+                "spellCheckingType" : "No",
+                "key" : "OEPFormKeySSID"
+              },
+              {
+                "objectID" : "0ee1390b-8ecd-475f-94fe-541907944f2b",
+                "text" : "Hostname",
+                "type" : "BPFEntryElement",
+                "enabled" : true,
+                "autocapitalizationType" : "None",
+                "mandatory" : true,
+                "hidden" : false,
+                "autocorrectionType" : "No",
+                "spellCheckingType" : "No",
+                "key" : "OEPFormKeyHostname"
+              }
+            ]
+          ],
+          "hidden" : false
+        },
+        "hasFooter" : false,
+        "title" : "Server Details"
+      },
+      {
+        "objectID" : "b6670275-c98b-48f7-a836-7d989b99c5f0",
+        "enabled" : true,
+        "type" : "BPFSection",
+        "footer" : "",
+        "hasHeader" : true,
+        "titleAlignment" : 0,
+        "footerAlignment" : 1,
+        "hidden" : false,
+        "elements" : {
+          "type" : "BPFElementArray",
+          "objectID" : "0daa68a2-c17f-4f13-ae6d-ed1353233b8d",
+          "columns" : 1,
+          "enabled" : true,
+          "columnElements" : [
+            [
+              {
+                "objectID" : "eb71e7b9-c530-4b89-961e-94bedbfb085b",
+                "text" : "Photo",
+                "type" : "BPFImageElement",
+                "enabled" : true,
+                "mandatory" : true,
+                "sections" : {
+                  "type" : "BPFSectionArray",
+                  "objectID" : "2c1ca0f1-681f-4fd4-bf21-a2cf8567fd8d",
+                  "sections" : [
+
+                  ],
+                  "enabled" : true,
+                  "hidden" : false
+                },
+                "hidden" : false,
+                "key" : "OEPFormKeyPhoto"
+              }
+            ]
+          ],
+          "hidden" : false
+        },
+        "hasFooter" : false,
+        "title" : ""
+      },
+      {
+        "objectID" : "e3869cd5-da5b-4eab-a791-be5fc827684e",
+        "enabled" : true,
+        "type" : "BPFSection",
+        "footer" : "",
+        "hasHeader" : true,
+        "titleAlignment" : 0,
+        "footerAlignment" : 1,
+        "hidden" : false,
+        "elements" : {
+          "type" : "BPFElementArray",
+          "objectID" : "3daad4ae-240e-4f03-8054-490c49374100",
+          "columns" : 1,
+          "enabled" : true,
+          "columnElements" : [
+            [
+              {
+                "type" : "BPFButtonElement",
+                "objectID" : "2b10a902-e397-449a-bb56-996bec674f8a",
+                "text" : "Upload image",
+                "enabled" : true,
+                "buttonTitle" : "Upload",
+                "hidden" : false,
+                "key" : "OEPFormKeyUploadButton"
+              }
+            ]
+          ],
+          "hidden" : false
+        },
+        "hasFooter" : false,
+        "title" : ""
+      }
+    ],
+    "enabled" : true,
+    "hidden" : false
+  },
+  "hidden" : false
+}
