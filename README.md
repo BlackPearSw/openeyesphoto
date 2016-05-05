@@ -1,9 +1,13 @@
 # openeyesphoto
 OpenEyes photo app created for [Open Eyes](http://www.openeyes.org.uk/)
 
+This is a deprecated project that we no longer support.
+
+The source code has been made available in case it can be used elsewhere.
+
 Copyright
 ---------
-Copyright 2013-2015 Black Pear Software Ltd.
+Copyright 2013-2014 Black Pear Software Ltd.
 
 License
 -------
